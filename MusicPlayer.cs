@@ -12,7 +12,7 @@ namespace BlankGame
 		public class MusicPlayer
 		{
 			
-		Dictionary<string, AVAudioPlayer> sounds = new Dictionary<string, AVAudioPlayer>();
+			Dictionary<string, AVAudioPlayer> sounds = new Dictionary<string, AVAudioPlayer>();
 			ArrayList songs = new ArrayList();
 			Random r;
 			AVAudioPlayer audioPlayer=null;
